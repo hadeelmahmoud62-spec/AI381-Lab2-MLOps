@@ -1,3 +1,5 @@
+![CI](https://github.com/hadeelmahmoud62-spec/AI381-Lab2-MLOps/actions/workflows/ci.yml/badge.svg?branch=main)
+
 # AI381 Lab 2 – MLOps Churn Prediction API
 
 A machine learning project that demonstrates an end-to-end MLOps workflow using Python, FastAPI, Docker, GitHub Actions, Trivy, and GitHub Container Registry.
