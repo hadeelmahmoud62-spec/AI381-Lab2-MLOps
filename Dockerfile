@@ -21,7 +21,10 @@ COPY src/ ./src/
 COPY model.joblib .
 
 # Create a non-root user
-RUN useradd --create-home --uid 10001 appuser
+RUN apt-get update \
+    && apt-get upgrade -y \
+    && rm -rf /var/lib/apt/lists/* \
+    && useradd --create-home --uid 10001 appuser
 
 USER appuser
 
