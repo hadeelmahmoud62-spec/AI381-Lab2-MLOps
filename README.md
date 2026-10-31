@@ -72,7 +72,7 @@ Docker Image – GHCR
 Image:
 ghcr.io/hadeelmahmoud62-spec/ai381-lab2-mlops
 Image Digest:
-sha256:c91bcae8110b3de758a047d3fe8d88568cef896d05135d2581e9edf4116b5a7d
+sha256:79863873d30a62f90b805aaf1da17a907f8ccc0913562019da01f858c5f05114
 
 Technologies Used:
 Python
