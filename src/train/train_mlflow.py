@@ -52,8 +52,6 @@ def preprocessing() -> ColumnTransformer:
 # Change the settings, not just the names: a different model family or a clearly different setting each time.
 CANDIDATES = {
     "logreg": LogisticRegression(max_iter=1000),
-    "random_forest": RandomForestClassifier(n_estimators=200, max_depth=8, random_state=42),
-    "gradient_boosting": GradientBoostingClassifier(random_state=42),
 }
 
 
